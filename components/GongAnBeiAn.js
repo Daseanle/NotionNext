@@ -14,7 +14,7 @@ export const GongAnBeiAn = () => {
   const codeMatch = BEI_AN_GONGAN.match(/\d+/) // 匹配纯数字
   const code = codeMatch ? codeMatch[0] : null // 如果匹配成功则取出数字部分
 
-  const href = `https://beian.mps.gov.cn/#/query/webSearch?code=${code}` // 动态生成链接
+  const href = `` // 动态生成链接
 
   if (!BEI_AN_GONGAN) {
     return null
